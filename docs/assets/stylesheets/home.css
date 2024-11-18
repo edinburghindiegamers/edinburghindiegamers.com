@@ -1,0 +1,76 @@
+/* Stylesheet specifically for the landing page, including the site banner */
+
+/* Font for site tag line */
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+/* Define CSS variables */
+:root {
+  --clr-brand: #ff6e42;
+  --clr-primary: hsl(0 0% 5%);
+  --clr-bg: hsl(0 0% 99%);
+  --clr-brand-bg: hsl(20, 100%, 95%);
+  --clr-brand-soft: hsl(20, 100%, 80%);
+  --pad-x-large: clamp(2rem, 32vw, 16rem);
+  --pad-large: clamp(1rem, 16vw, 8rem);
+  --pad-medium: clamp(.5rem, 5vw, 3rem);
+  --pad-small: clamp(.5rem, 2vw, 1rem);
+  --pad-x-small: clamp(.25rem, 1vw, .5rem);
+}
+
+.hero {
+  background-color: var(--clr-brand);
+  padding: var(--pad-medium);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 16%;
+}
+
+.hero h1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.hero__title {
+  font-family: Bangers;
+  font-size: 25px;
+  fill: var(--clr-bg);
+  stroke: var(--clr-primary);
+  stroke-width: .75px;
+}
+
+.hero svg {
+  width: 100%;
+}
+
+/* Cupids */
+
+.hero {
+  position: relative;
+  padding-bottom: var(--pad-medium);
+}
+ 
+.cupid-banner__background {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateY(65%) translateX(1%);
+}
+
+.cupid-banner__banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(50%) translateX(10%) scale(70%);
+}
+
+.cupid-banner__text {
+  font-family: Boogaloo;
+  letter-spacing: .03em;
+  font-size: 1rem;
+}

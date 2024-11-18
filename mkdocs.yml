@@ -1,0 +1,141 @@
+site_name: Edinburgh Indie Gamers
+site_description: >- 
+  An inclusive tabletop gaming club dedicated to indie roleplaying and story games.
+site_url: https://edinburghindiegamers.com/
+repo_name: GitHub Repo
+repo_url: https://github.com/edinburghindiegamers/edinburghindiegamers.com
+edit_uri: edit/main/docs/
+
+plugins:
+  - blog:
+      archive_date_format: yyyy
+      draft: false
+      draft_on_serve: false
+      draft_if_future_date: true
+      post_date_format: EEE. d MMM. yyyy
+  - git-committers:
+      repository: edinburghindiegamers/edinburghindiegamers.com
+      branch: main
+      token: ${{ secrets.GITHUB_TOKEN }}
+  - git-revision-date-localized:
+      type: custom
+      custom_format: "%d %B %Y"
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
+  - search
+  - social
+  - tags:
+      tags_file: blog/tags.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Auto light/dark mode
+      primary: custom
+      accent: custom
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/white-balance-sunny
+        name: Light mode
+      primary: custom
+      accent: custom
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: custom
+      accent: custom
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
+  - pymdownx.superfences
+  - smarty
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/6vNbsq5tSV
+    - icon: fontawesome/brands/github
+      link: https://github.com/edinburghindiegamers/edinburghindiegamers.com
+
+copyright: "&copy; Edinburgh Indie Gamers <script>document.write(new Date().getFullYear())</script>"
+
+nav:
+  - Home: index.md
+  - About:
+    - About the Club: about/index.md
+    - General Club Rules: about/rules.md
+    - Code of Conduct: about/code-of-conduct.md
+  - Events: events/index.md
+  - Resources:
+    - resources/index.md
+    - Welcome Guide: resources/welcome-guide.md
+    - Good Gameplay Guide: resources/good-gameplay.md
+    - Facilitating and Pitching Games: resources/facilitating-and-pitching.md
+    - External Resources:
+      - Game Safety Toolkit: https://drive.google.com/drive/folders/114jRmhzBpdqkAlhmveis0nmW73qkAZCj
+      - Accessibility in Tabletop Resources: https://docs.google.com/document/d/1ZFSXz-Yva1KZAsP7NblCdkoiQ6RcjxSV2gj98eXusJs
+      - Consent in Gaming Checklist: https://www.montecookgames.com/store/product/consent-in-gaming/
+  - Blog:
+    - blog/index.md
+    - Tags: blog/tags.md
+  - Zine:
+    - zine/index.md
+  - Contact: contact/index.md
+
+watch:
+  - includes
+  - overrides
