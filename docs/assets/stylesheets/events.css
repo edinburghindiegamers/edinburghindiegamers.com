@@ -1,0 +1,52 @@
+#events-listing h3 {
+    font-family: Bangers;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 0rem;
+}
+
+.events-loading {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.events-loading svg {
+    width: 1.5rem;
+    fill: var(--md-default-fg-color);
+    animation: rotation 1s linear infinite;
+}
+
+.events-loading span {
+    line-height: 1.5rem;
+    vertical-align: middle;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.md-typeset .grid.cards>ul>li  {
+    border-width: 0.1rem;
+    border-color: color-mix(in srgb, var(--md-typeset-color) 50%, transparent 50%);
+    border-radius: 0.5rem;
+}
+
+.md-typeset .grid.cards>ul>li:hover {
+    border-color: var(--md-typeset-color);
+}
+
+.md-typeset .grid.cards>ul>li>hr {
+    border-width: 0.05rem;
+    border-color: color-mix(in srgb, var(--md-typeset-color) 50%, transparent 50%);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

@@ -2,19 +2,19 @@
 hide:
   - navigation
 icon: material/calendar-text
+template: events.html
 ---
 
 # Events
 
 !!! info ""
 
-    Information about our forthcoming events, including our monthly Story Games Hangout and our occasional pub socials, will be on our Google Calendar below.
-    You can add these events to your own calendar if it would help you keep track of them.
+    If you want to keep up to date with our latest events, you should [join our Discord server](https://discord.gg/6vNbsq5tSV).
+    If you are a member of the club, you can schedule your own events on Discord and they will appear on our website.
 
-    [Follow this link](https://calendar.google.com/calendar/u/0?cid=ZWRpbmJ1cmdoaW5kaWVnYW1lcnNAZ21haWwuY29t) to subscribe to the calendar.
-
-    If you are a member of the club, you can schedule your own events on Discord and they will appear on our calendar.
-
-<div style="display: flex; justify-content: center;"> 
-  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FLondon&showPrint=0&showTitle=0&mode=AGENDA&hl=en_GB&showTabs=0&showNav=0&showDate=0&src=ZWRpbmJ1cmdoaW5kaWVnYW1lcnNAZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="80%" height="600" frameborder="0" scrolling="no"></iframe>
+<div id="events-listing" class="grid cards" markdown>
+<div class="events-loading">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4V2A10 10 0 0 0 2 12h2a8 8 0 0 1 8-8"></path></svg>
+<span>Fetching events from server...</span>
+</div>
 </div>
