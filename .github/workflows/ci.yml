@@ -26,7 +26,7 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-material-extensions mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 mkdocs-rss-plugin pillow cairosvg
+      - run: pip install --upgrade mkdocs-material mkdocs-material-extensions mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 mkdocs-rss-plugin pillow cairosvg
       - run: mkdocs gh-deploy --force
 env:
   MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
