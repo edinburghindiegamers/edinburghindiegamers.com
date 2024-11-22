@@ -26,7 +26,7 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material=9.5.44 mkdocs-material-extensions mkdocs-material[imaging] mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 mkdocs-rss-plugin
+      - run: pip install mkdocs-material==9.5.44 mkdocs-material-extensions mkdocs-material[imaging] mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 mkdocs-rss-plugin
       - run: mkdocs gh-deploy --force
 env:
   MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
