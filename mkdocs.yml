@@ -48,7 +48,6 @@ theme:
     - navigation.indexes
     - navigation.sections
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -63,8 +62,8 @@ theme:
       toggle:
         icon: material/brightness-auto
         name: Auto light/dark mode
-      primary: custom
-      accent: custom
+      primary: deep orange
+      accent: orange
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -72,8 +71,8 @@ theme:
       toggle:
         icon: material/white-balance-sunny
         name: Light mode
-      primary: custom
-      accent: custom
+      primary: deep orange
+      accent: orange
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -81,8 +80,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Dark mode
-      primary: custom
-      accent: custom
+      primary: deep orange
+      accent: orange
 
 markdown_extensions:
   - abbr
@@ -99,6 +98,8 @@ markdown_extensions:
         - includes/glossary.md
   - pymdownx.superfences
   - smarty
+  - toc:
+      title: Table of Contents
 
 extra_css:
   - assets/stylesheets/extra.css

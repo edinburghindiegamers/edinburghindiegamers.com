@@ -4,19 +4,15 @@
   font-family: Bangers;
 }
 
-/* Change foreground colour */
-:root {
-  --md-primary-fg-color: #ff6e42;
-  --md-primary-fg-color--light: #ff8a66;
-  --md-primary-fg-color--dark: #f4511f;
-}
-
 /* Revert links to blue, different shade for dark mode */
-[data-md-color-scheme=default] {
+.md-typeset a {
   --md-typeset-a-color: #4051b5;
 }
-[data-md-color-scheme=slate] {
+[data-md-color-scheme=slate] .md-typeset a {
   --md-typeset-a-color: #5488e8;
+}
+.md-typeset a:hover {
+  color: #526cfe;
 }
 
 .md-typeset .md-button.md-button--discord {
@@ -33,19 +29,8 @@
 }
 
 .md-typeset .md-button.md-button--discord:hover {
-  background-color: #5865f28f;
-  border-color: #5865f28f;
-  color: var(--md-accent-bg-color);
-}
-
-.md-typeset .md-button:hover {
-  background-color: var(--md-primary-fg-color--dark);
-  border-color: var(--md-primary-fg-color--dark);
-}
-
-.md-top:focus, .md-top:hover {
-  background-color: var(--md-primary-fg-color);
-  color: var(--md-accent-bg-color);
+  background-color: #7781f1;
+  border-color: #7781f1;
 }
 
 /* Revert tags to regular system font (as tags are rendered as h2 in the tags page and behaves like a heading above) */
@@ -94,7 +79,7 @@
 /* Make admonition boxes bigger */
 .md-typeset .admonition,
 .md-typeset .details {
-  font-size: 16px
+  font-size: unset;
 }
 
 @media screen and (max-width: 76.2344em) {
