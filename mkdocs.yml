@@ -7,12 +7,13 @@ repo_url: https://github.com/edinburghindiegamers/edinburghindiegamers.com
 edit_uri: edit/main/docs/
 
 plugins:
-  - blog:
-      archive_date_format: yyyy
-      draft: false
-      draft_on_serve: false
-      draft_if_future_date: true
-      post_date_format: EEE. d MMM. yyyy
+  # Deactivated blog plugin. Uncomment to enable.
+  # - blog:
+  #     archive_date_format: yyyy
+  #     draft: false
+  #     draft_on_serve: false
+  #     draft_if_future_date: true
+  #     post_date_format: EEE. d MMM. yyyy
   - git-committers:
       repository: edinburghindiegamers/edinburghindiegamers.com
       branch: main
@@ -114,11 +115,10 @@ extra:
 copyright: "&copy; Edinburgh Indie Gamers <script>document.write(new Date().getFullYear())</script>"
 
 nav:
-  - Home: index.md
-  - About:
-    - About the Club: about/index.md
-    - General Club Rules: about/rules.md
-    - Code of Conduct: about/code-of-conduct.md
+  - Home:
+    - index.md
+    - General Club Rules: rules.md
+    - Code of Conduct: code-of-conduct.md
   - Events: events/index.md
   - Resources:
     - resources/index.md
@@ -129,9 +129,10 @@ nav:
       - Game Safety Toolkit: https://drive.google.com/drive/folders/114jRmhzBpdqkAlhmveis0nmW73qkAZCj
       - Accessibility in Tabletop Resources: https://docs.google.com/document/d/1ZFSXz-Yva1KZAsP7NblCdkoiQ6RcjxSV2gj98eXusJs
       - Consent in Gaming Checklist: https://www.montecookgames.com/store/product/consent-in-gaming/
-  - Blog:
-    - blog/index.md
-    - Tags: blog/tags.md
+  # Deactivated Blog section. Uncomment to re-enable.
+  # - Blog:
+  #   - blog/index.md
+  #   - Tags: blog/tags.md
   - Zine:
     - zine/index.md
   - Contact: contact/index.md

@@ -16,11 +16,11 @@ If you have any questions about the events, feel free to ask one of the organise
 ## Abide By the Code of Conduct
 
 We require that all our members read and abide by our Code of Conduct in all of the club's spaces, both online and in-person.
-[The Code of Conduct can be found on our website](../about/code-of-conduct.md).
+[The Code of Conduct can be found on our website](../code-of-conduct.md).
 
 In order to gain full access to the Discord server, members will have to confirm that they have read and accepted our Code of Conduct.
 
-[:material-file-document-multiple: Read our Code of Conduct](../about/code-of-conduct.md){ .md-button .md-button--primary }
+[:material-file-document-multiple: Read our Code of Conduct](../code-of-conduct.md){ .md-button .md-button--primary }
 
 ## Club Discord Server
 

@@ -50,12 +50,12 @@ In order to exemplify these principles, participants in the Club are expected to
     - Explain and incorporate some form of tools for safe play (e.g. X-Card, Lines & Veils, etc) into every game shared at the Club.
 
 Participants at the Club all have a shared responsibility to ensure a positive and welcoming play culture.
-To these ends, participants are also encouraged to read our [Good Gameplay Guide](../resources/good-gameplay.md).
+To these ends, participants are also encouraged to read our [Good Gameplay Guide](resources/good-gameplay.md).
 
 ## Safety Tools
 
 Otherwise known as communication tools or tools of the table, these include a variety of practices to facilitate clear communication at the table in order to promote safe and welcoming play.
-For more information on safety tools, refer to our [Resources](../resources/index.md) section.
+For more information on safety tools, refer to our [Resources](resources/index.md) section.
 
 ## Unacceptable Behaviour
 
@@ -101,7 +101,7 @@ To that effect, the community reserves the right to not act on retaliatory compl
 If you experience disrespectful or harassing behaviour by a member of the community, notice that someone else is being disrespected or harassed, or have any other concerns, please immediately contact one of the Admin Team.
 You can find more information on how to contact the Admin Team by following the link below:
 
-[:material-message-text: Contact the Admin Team](../contact/index.md){ .md-button .md-button--primary }
+[:material-message-text: Contact the Admin Team](contact/index.md){ .md-button .md-button--primary }
 
 ## Enforcement and Consequences
 

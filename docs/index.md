@@ -18,13 +18,55 @@ Edinburgh Indie Gamers is an inclusive tabletop gaming club dedicated to indie r
 
     For more information on the kinds of games we play, see our [Welcome Guide](resources/welcome-guide.md#the-kind-of-games-we-play).
 
+We meet **on the fourth Saturday of every month** at the Shrub Zero Waste Hub on 22 Bread Street, Edinburgh EH3 9AF.
+
+## Club Discord Server
+
+Discord is the Club's main on-line space.
+Member use this space to chat, organise private games, or even play on-line.
+Information and updates about future events are also posted on Discord.
+Please see our [rules for Discord membership](rules.md#discord-membership) on who is eligible to join.
+
+[:fontawesome-brands-discord: Join our Discord](https://discord.gg/6vNbsq5tSV){ .md-button .md-button--discord }
+
+## The Admin Team
+
+Edinburgh Indie Gamers is run by a small group of volunteers who comprise its admin team.
+There are about seven to ten of us who share the responsibility of managing the Club's money, venue bookings, and events.
+We also moderate the Discord, maintain the website, and promote the club at conventions or events.
+Members of the Admin Team also respond to any feedback, concerns, queries, or issues participants may have.
+We do our best to help participants in the club enjoy their time here.
+
+[:material-message-text: Contact the Admin Team](contact/index.md){ .md-button .md-button--primary }
+
+## The Zine
+
+Our zine is also published by volunteers and a wide range of contributors within the Club.
+You can find more information about it in [the Zine](zine/index.md) section of the website.
+
+There is no barrier to contribution, and we encourage any member of our community who is interested in sharing any kind of material, whether it is artwork, articles, games, or even contributing their skills with graphic design or copy editing, to get in touch!
+
+## Getting Involved
+
+We always welcome people who want to get involved in running the Club or publishing the Zine!
+There is no formal application process.
+If you are interested in volunteering, please get in touch with the Admin Team via the [Contact](contact/index.md) page.
+We do recommend that you take some time to come along to the Club first so you can get a feel for the club, its atmosphere, and its culture.
+
 ## Get Started
 
 Following are a selection of resources to get you started:
 
 <div class="grid cards" markdown>
 
--   [:material-file-document-multiple:{ .lg .middle } **Abide by our Code of Conduct** :octicons-arrow-right-24:](about/code-of-conduct.md)
+-   [:material-file-document-multiple:{ .lg .middle } **Abide by our Code of Conduct** :octicons-arrow-right-24:](code-of-conduct.md)
+
+    ---
+
+    All participants must abide by our Code of Conduct in our in-person and on-line spaces.
+    Accepting it is mandatory to access our Discord.
+
+-   [:material-file-document:{ .lg .middle } **Read our Club Rules** :octicons-arrow-right-24:](rules.md)
 
     ---
 
@@ -56,11 +98,5 @@ Following are a selection of resources to get you started:
     ---
 
     We also occasionally publish a zine to help crowdfund for the club and to share some of the creative work of our members.
-
--   [:material-message-text:{ .lg .middle } **Contact Us** :octicons-arrow-right-24:](contact/index.md)
-
-    ---
-
-    If you need to get in touch with us, whether it is to raise a complaint or concern, give us feedback, or find out more about the club.
 
 </div>

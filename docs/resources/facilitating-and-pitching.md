@@ -22,7 +22,7 @@ The only rules we have for people facilitating a game are:
 
 !!! Info ""
 
-    1. Abide by our [code of conduct](../about/code-of-conduct.md).
+    1. Abide by our [code of conduct](../code-of-conduct.md).
       Especially ensure that you are using some manner of safety and communication tools at your table.
     2. Facilitate a positive and welcoming play environment at the table.
       This includes working collaboratively with others and having clear communication on content and boundaries.
