@@ -70,8 +70,8 @@ Following are a selection of resources to get you started:
 
     ---
 
-    All participants must abide by our Code of Conduct in our in-person and on-line spaces.
-    Accepting it is mandatory to access our Discord.
+    Rules on attending our events, joining our Discord, promoting games, and how we handle complaints.
+    This gives an overview of how the club is run.
 
 -   [:fontawesome-brands-discord:{ .lg .middle } **Join our Discord Server** :octicons-arrow-right-24:](https://discord.gg/6vNbsq5tSV)
 
