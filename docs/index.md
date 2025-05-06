@@ -18,7 +18,8 @@ Edinburgh Indie Gamers is an inclusive tabletop gaming club dedicated to indie r
 
     For more information on the kinds of games we play, see our [Welcome Guide](resources/welcome-guide.md#the-kind-of-games-we-play).
 
-We meet **on the fourth Saturday of every month** at the Shrub Zero Waste Hub on 22 Bread Street, Edinburgh EH3 9AF.
+We meet **on the fourth Saturday of every month**.
+Please check the event details for the venue.
 
 ## Club Discord Server
 

@@ -95,15 +95,6 @@ Games will run until shortly before 10 pm to allow everyone time to pack up and 
     You are welcome to leave at any time.
     If a game is not working for you, if you have something else come up, or if you are just not feeling it, it’s fine to leave (even if you are the game’s facilitator).
 
-## Using the Venue
-
-ShrubHub is a community space who have agreed to let us use their venue, and we want to be gracious guests here.
-They do let us bring in food and drink from outside, or use their cafe when it is staffed.
-But they have asked that our members **tidy up after themselves** when they are finished.
-
-Additionally, Shrub has a **[Safer Spaces Policy](https://res.cloudinary.com/shrub-co-op/image/upload/v1573736447/shrubcoop.org/media/SHRUB_Safer_Spaces_Policy_3.0_k1sjgv.pdf)** that they require people to abide by when using their space.
-Our Code of Conduct aligns with it, but it can be helpful to be familiar with it for good measure.
-
 ## Getting Help
 
 If you need help with anything, if you need to raise any concerns about the event, or if you have any feedback for the Club, please feel free to speak to members of the Admin Team at the event.
