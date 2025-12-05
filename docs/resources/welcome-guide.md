@@ -64,7 +64,7 @@ Additionally, many members of the club playtest their own games here as well! So
 
 ## The Running Order
 
-The event **starts at 6:00 pm**.
+The event **starts at 5:00 pm**.
 Member of the Admin Team will be present at the start of the event to welcome attendees, and will introduce themselves to participants.
 Feel free to speak to them over the course of the evening if you need help with anything.
 
@@ -76,9 +76,12 @@ If you have any issues, concerns, or questions, feel free to speak to them.
 
 !!! Question "Order of Events"
 
-    **6:00 pm to 6:30 pm**: Arrival Time.  
-    **6:30 pm**: Pitches; games start thereafter.  
-    **10:00 pm**: Wrap up and close.
+    **5:00 pm to 5:30 pm**: Arrival Time.  
+    **5:30 pm**: Pitches; games start thereafter.  
+    **9:00 pm**: Wrap up and close.
+
+    The exact times may vary on some days depending on the venue bookings.
+    Please double check the event listing for the start time of each individual meet-up.
 
 During the pitches, people who have brought games to play will pitch the games.
 They will give a brief description of the game and how many players they can take.
