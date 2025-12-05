@@ -84,10 +84,9 @@ Such behaviour is not welcome in our spaces and will not be tolerated.
     - Continued one-on-one communication after requests to cease; and
     - Deliberate “outing” of any aspect of a person’s identity without their consent, except as necessary to protect other community members or other vulnerable people from intentional abuse.
 
-As a community, we prioritise marginalised people’s safety above privileged people’s comfort. To that effect, The community reserves the right to not act on retaliatory complaints or other attempts to weaponize this Code of Conduct or other community processes. Such bad faith actions include, but are not limited to:
-
 As a community, we prioritise marginalised people’s safety above privileged people’s comfort.
-To that effect, the community reserves the right to not act on retaliatory complaints or other attempts to weaponize this Code of Conduct or other community processes.
+To that effect, The community reserves the right to not act on retaliatory complaints or other attempts to weaponize this Code of Conduct or other community processes.
+Such bad faith actions include, but are not limited to:
 
 !!! Warning "Some examples of bad faith retaliations"
 
